@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<style>
+		.text {
+		resize: none;
+		}
+		 </style>
+		<script type="text/javascript">
+		 function okno_zamknij() 
+		 {
+		 window.close()
+		 }
+		</script>
+	</head>
+	<body>
+		 <textarea class="text" name="wyjaśnienie" cols="20" rows="50" disabled>
+			<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+		<div style="color:navy;font-size:70px;">
+		<script language="JavaScript">
+		var A=prompt("podaj pierwsza liczbe=","");
+		var B=prompt("podaj druga liczbe=","");
+		var wzor;
+		var a=parseFloat(A);
+		var b=parseFloat(B);
+		var x1;
+		var x2;
+		var x3;
+		var x4;
+		1=a*a*a;
+		2=3*((a)*(a))*(b);
+		3=3*(a)*((b)*(b));
+		4=b*b*b;
+		wyn=x1+x2+x3+x4;
+		document.write("wczytane liczby: A="+a+" B="+b+"<br>"+a+"^3+3*(("+a+")^2)*("+b+")+3*("+a+")*(("+b+")^2)+"+b+"^3 = "+x1+" + "+x2+" + "+x3+" + "+x4+" = "+wyn+"<br>");
+		</script>
+		</div>
+	</body>
+</html>
+		 </textarea><br>
+		 <input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+	</body>
+</html>
