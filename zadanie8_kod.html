@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<style>
+		.text {
+		resize: none;
+		}
+		 </style>
+		<script type="text/javascript">
+		 function okno_zamknij() 
+		 {
+		 window.close()
+		 }
+		</script>
+	</head>
+	<body>
+		 <textarea class="text" name="wyjaśnienie" cols="20" rows="30" disabled>
+			<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+	<body>
+		<div style="color:green;font-size:39px;">
+		<script language="JavaScript">
+		var D1_fre=prompt("dzien1= ","");
+		var D2_fre=prompt("dzien2= ","");
+		var suma;
+		var a=parseFloat(D1_but);
+		var b=parseFloat(D2_but);
+		suma=(a*86400)-(b*86400);
+		document.write("ilosc sekund = "+suma+"<br>");
+		</script>
+		</div>
+	</body>
+</html>
+		 </textarea><br>
+		 <input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+	</body>
+</html>
